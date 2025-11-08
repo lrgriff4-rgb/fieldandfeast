@@ -7,143 +7,143 @@
 /* MEDIA QUERY (large) */
 /* MEDIA QUERY (xl) */
 
-<style>
-    body {
-        font-family: playfair-display;
-        line-height: ;
-        color: ;
-        margin: ;
-        padding: ;
-        background-color: ;
+/* General Body Styles */
+body {
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header Styles */
+header {
+    text-align: center;
+    padding: 40px 0;
+    background-color: #;
+    border-bottom: 1px solid #eee;
+}
+
+header img {
+    max-width: 150px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+header h1 {
+    font-family: 'Playfair Display', serif; /* Distinctive header font */
+    font-size: 3em;
+    color: #; /* A muted green/blue for branding */
+    margin: 0;
+}
+
+.tagline {
+    font-style: italic;
+    color: #777;
+    margin-top: 5px;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #5C8D89;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #A4C3B2; /* Lighter shade on hover */
+}
+
+/* Section Styles */
+.section {
+    background-color: #fff;
+    padding: 40px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.section h2 {
+    font-family: 'Playfair Display', serif;
+    color: #5C8D89;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2.5em;
+}
+
+/* Offerings Grid */
+.offerings-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.offering-item {
+    background-color: #fdfdfd;
+    padding: 25px;
+    border-radius: 6px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+    text-align: center;
+}
+
+.offering-item h3 {
+    font-family: 'Playfair Display', serif;
+    color: #5C8D89;
+    font-size: 1.8em;
+    margin-bottom: 15px;
+}
+
+.offering-item p {
+    color: #555;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2.5em;
     }
-    .container {
-        max-width: ;
-            margin: ;
-            padding: ;
-    }
-    header {
-            text-align: ;
-            padding: ;
-            border-bottom: ;
-    }
-    .logo {
-            /* Placeholder for the logo image */
-            width: ;
-            height: ;
-            background-color: ;
-            margin: ;
-            display: ;
-            border-radius: %;
-            text-align: ;
-            line-height: ;
-            font-size: ;
-    }
-    h1 {
-            margin: ;
-            font-size: ;
-            color: ;
-    }
-    .tagline {
-            font-style: ;
-            color: ;
-            margin-top: ;
-    }
-    nav {
-            text-align: ;
-            margin-top: ;
-    }
+
     nav a {
-            text-decoration: ;
-            color: ;
-            margin: ;
-            font-weight: ;
+        display: block;
+        margin: 10px 0;
     }
+
     .section {
-            padding: ;
-            border-bottom: ;
+        padding: 30px;
     }
-    h2 {
-            color: ;
-            font-size: ;
-            margin-bottom: ;
-            text-align: ;
+
+    .section h2 {
+        font-size: 2em;
     }
-    .offerings-grid {
-            display: ;
-            justify-content: ;
-            gap: ;
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 2em;
     }
-    .offering-item {
-            flex: ;
-            background-color: ;
-            padding: ;
-            border-radius: ;
-            box-shadow: ;
+
+    header img {
+        max-width: 100px;
     }
+
+    .section {
+        padding: 20px;
+    }
+
     .offering-item h3 {
-            color: ;
+        font-size: 1.5em;
     }
-    .monthly-basket-details {
-            margin-top: ;
-    }
-    .monthly-basket-details ul {
-            list-style-type: ;
-            padding: ;
-    }
-    .monthly-basket-details li {
-            margin-bottom: ;
-            padding-left: ;
-            position: ;
-    }
-    .monthly-basket-details li::before {
-            content: ;
-            position: ;
-            left: ;
-    }
-    .gallery-grid {
-            display: ;
-            grid-template-columns: ;
-            gap: ;
-            margin-top: ;
-    }
-    .gallery-item {
-            text-align: ;
-    }
-    .gallery-item .image-placeholder {
-            width: ;
-            height: ;
-            background-color: ;
-            border-radius: ;
-            display: ;
-            justify-content: ;
-            align-items: ;
-            font-size: ;
-            margin-bottom: ;
-    }
-    .gallery-item figcaption {
-            font-size: ;
-            color: ;
-    }
-    .view-gallery-btn {
-            display: ;
-            width: ;
-            margin: ;
-            padding: ;
-            text-align: ;
-            background-color: ;
-            color: ;
-            text-decoration: ;
-            border-radius: ;
-            font-weight: ;
-    }
-    footer {
-            text-align: ;
-            padding: ;
-            margin-top: ;
-            border-top: ;
-            font-size: ;
-            color: ;
-    }
-</style>
-
-
+}

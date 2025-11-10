@@ -12,8 +12,8 @@ body {
     font-family: 'Playfair Display', serif;
     margin: 0;
     padding: 0;
-    background-color: #f8f8f8;
-    color: #333;
+    background-color: #F8F4EC;
+    color: #2B2B2B;
     line-height: 1.6;
 }
 
@@ -27,7 +27,7 @@ body {
 header {
     text-align: center;
     padding: 40px 0;
-    background-color: #;
+    background-color: #1F2A44;
     border-bottom: 1px solid #eee;
 }
 
@@ -40,7 +40,7 @@ header img {
 header h1 {
     font-family: 'Playfair Display', serif; /* Distinctive header font */
     font-size: 3em;
-    color: #; /* A muted green/blue for branding */
+    color: #FAF9F6; /* A muted green/blue for branding */
     margin: 0;
 }
 
@@ -56,19 +56,19 @@ nav {
 
 nav a {
     text-decoration: none;
-    color: #5C8D89;
+    color: #E5C185;
     margin: 0 15px;
     font-weight: bold;
     transition: color 0.3s ease;
 }
 
 nav a:hover {
-    color: #A4C3B2; /* Lighter shade on hover */
+    color: #1F2A44; /* Lighter shade on hover */
 }
 
 /* Section Styles */
 .section {
-    background-color: #fff;
+    background-color: #F8F4EC;
     padding: 40px;
     margin-bottom: 20px;
     border-radius: 8px;
@@ -92,7 +92,7 @@ nav a:hover {
 }
 
 .offering-item {
-    background-color: #fdfdfd;
+    background-color: #76885B;
     padding: 25px;
     border-radius: 6px;
     box-shadow: 0 1px 3px rgba(0,0,0,0.08);
@@ -101,13 +101,13 @@ nav a:hover {
 
 .offering-item h3 {
     font-family: 'Playfair Display', serif;
-    color: #5C8D89;
+    color: #FAF9F6;
     font-size: 1.8em;
     margin-bottom: 15px;
 }
 
 .offering-item p {
-    color: #555;
+    color: #FAF9F6;
 }
 
 /* Responsive Design */
@@ -147,3 +147,4 @@ nav a:hover {
         font-size: 1.5em;
     }
 }
+

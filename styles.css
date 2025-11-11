@@ -17,6 +17,28 @@ body {
     line-height: 1.6;
 }
 
+/* Medium devices (min-width: 600px) */
+@media (min-width: 600px) {
+  body {
+    font-size: 18px;
+  }
+  /* Styles specific to medium screens */
+}
+
+/* Large devices (min-width: 900px) */
+@media (min-width: 900px) {
+  body {
+    font-size: 20px;
+  }
+  /* Styles specific to large screens */
+}
+
+/* XL devices (min-width: 1200px) */
+@media (min-width: 1200px) {
+  body {
+    font-size: 22px;
+  }
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -147,4 +169,5 @@ nav a:hover {
         font-size: 1.5em;
     }
 }
+
 

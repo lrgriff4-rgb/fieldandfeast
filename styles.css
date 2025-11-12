@@ -92,6 +92,7 @@ nav a:hover {
 footer {
     background-color: #1F2A44;
     color: #FAF9F6;
+    font-size: 6px;
 }
 
 /* Section Styles */
@@ -137,4 +138,5 @@ footer {
 .offering-item p {
     color: #FAF9F6;
 }
+
 

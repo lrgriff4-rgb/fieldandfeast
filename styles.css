@@ -47,7 +47,7 @@ body {
 
 /* Header Styles */
 header {
-    text-align: center;
+    text-align: left;
     padding: 40px 0;
     background-color: #1F2A44;
     border-bottom: 1px solid #eee;
@@ -68,7 +68,7 @@ header h1 {
 
 .tagline {
     font-style: italic;
-    color: #777;
+    color: #FAF9F6;
     margin-top: 5px;
 }
 
@@ -78,14 +78,15 @@ nav {
 
 nav a {
     text-decoration: none;
-    color: #E5C185;
+    color: #1F2A44;
+    background-color: #E5C185;
     margin: 0 15px;
     font-weight: bold;
     transition: color 0.3s ease;
 }
 
 nav a:hover {
-    color: #1F2A44; /* Lighter shade on hover */
+    color: #F8F4EC; /* Lighter shade on hover */
 }
 
 /* Section Styles */
@@ -169,5 +170,6 @@ nav a:hover {
         font-size: 1.5em;
     }
 }
+
 
 

@@ -47,7 +47,7 @@ body {
 
 /* Header Styles */
 header {
-    text-align: left;
+    text-align: center;
     padding: 40px 0;
     background-color: #1F2A44;
     border-bottom: 1px solid #eee;
@@ -138,5 +138,6 @@ footer {
 .offering-item p {
     color: #FAF9F6;
 }
+
 
 

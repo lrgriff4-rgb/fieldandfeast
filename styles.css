@@ -60,9 +60,9 @@ header img {
 }
 
 header h1 {
-    font-family: 'Playfair Display', serif; /* Distinctive header font */
+    font-family: 'Playfair Display', serif;
     font-size: 3em;
-    color: #FAF9F6; /* A muted green/blue for branding */
+    color: #FAF9F6;
     margin: 0;
 }
 
@@ -86,7 +86,12 @@ nav a {
 }
 
 nav a:hover {
-    color: #F8F4EC; /* Lighter shade on hover */
+    color: #F8F4EC;
+}
+
+footer {
+    background-color: #1F2A44;
+    color: #FAF9F6;
 }
 
 /* Section Styles */
@@ -132,44 +137,4 @@ nav a:hover {
 .offering-item p {
     color: #FAF9F6;
 }
-
-/* Responsive Design */
-@media (max-width: 768px) {
-    header h1 {
-        font-size: 2.5em;
-    }
-
-    nav a {
-        display: block;
-        margin: 10px 0;
-    }
-
-    .section {
-        padding: 30px;
-    }
-
-    .section h2 {
-        font-size: 2em;
-    }
-}
-
-@media (max-width: 480px) {
-    header h1 {
-        font-size: 2em;
-    }
-
-    header img {
-        max-width: 100px;
-    }
-
-    .section {
-        padding: 20px;
-    }
-
-    .offering-item h3 {
-        font-size: 1.5em;
-    }
-}
-
-
 

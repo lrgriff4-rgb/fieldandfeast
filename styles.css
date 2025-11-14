@@ -80,7 +80,7 @@ nav {
 nav a {
     text-decoration: none;
     color: #1F2A44;
-    margin: 30 70px;
+    margin: 0 70px;
     font-weight: bold;
     transition: color 0.3s ease;
 }
@@ -147,3 +147,4 @@ figcaptain {
     font-style: itlaic;
     color: #2B2B2B;
 }
+

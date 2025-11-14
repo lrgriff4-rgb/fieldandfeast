@@ -74,12 +74,12 @@ header h1 {
 
 nav {
     margin-top: 20px;
+    background-color: #E5C185;
 }
 
 nav a {
     text-decoration: none;
     color: #1F2A44;
-    background-color: #E5C185;
     margin: 0 15px;
     font-weight: bold;
     transition: color 0.3s ease;
@@ -106,7 +106,7 @@ footer {
 
 .section h2 {
     font-family: 'Playfair Display', serif;
-    color: #5C8D89;
+    color: #1F2A44;
     text-align: center;
     margin-bottom: 30px;
     font-size: 2.5em;
@@ -125,7 +125,7 @@ footer {
     padding: 25px;
     border-radius: 6px;
     box-shadow: 0 1px 3px rgba(0,0,0,0.08);
-    text-align: center;
+    text-align: left;
 }
 
 .offering-item h3 {
@@ -139,8 +139,13 @@ footer {
     color: #FAF9F6;
 }
 
+.offering-item ul {
+    color: #FAF9F6;
+}
+
 figcaptain {
     font-style: itlaic;
     color: #2B2B2B;
 }
+
 

@@ -92,7 +92,7 @@ nav a:hover {
 footer {
     background-color: #1F2A44;
     color: #FAF9F6;
-    font-size: 6px;
+    font-size: 12px;
 }
 
 /* Section Styles */
@@ -143,3 +143,4 @@ figcaptain {
     font-style: itlaic;
     color: #2B2B2B;
 }
+

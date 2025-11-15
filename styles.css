@@ -88,6 +88,12 @@ nav a:hover {
     color: #F8F4EC;
 }
 
+a href {
+    background-color: #76885B;
+    font-family: 'Playfair Display', serif;
+    color: #FAF9F6;
+}
+
 footer {
     background-color: #1F2A44;
     color: #FAF9F6;
@@ -147,6 +153,7 @@ figcaptain {
     font-style: itlaic;
     color: #2B2B2B;
 }
+
 
 
 

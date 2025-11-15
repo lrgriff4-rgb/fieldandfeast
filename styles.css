@@ -50,7 +50,6 @@ header {
     text-align: center;
     padding: 40px 0;
     background-color: #1F2A44;
-    border-bottom: 1px solid #eee;
 }
 
 header img {
@@ -73,14 +72,14 @@ header h1 {
 }
 
 nav {
-    margin-top: 20px;
+    margin-top: 50px;
     background-color: #E5C185;
 }
 
 nav a {
     text-decoration: none;
     color: #1F2A44;
-    margin: 0 70px;
+    margin: 0 100px;
     font-weight: bold;
     transition: color 0.3s ease;
 }
@@ -98,7 +97,7 @@ footer {
 /* Section Styles */
 .section {
     background-color: #F8F4EC;
-    padding: 40px;
+    padding: 20px;
     margin-bottom: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
@@ -107,16 +106,16 @@ footer {
 .section h2 {
     font-family: 'Playfair Display', serif;
     color: #2B2B2B;
-    text-align: center;
-    margin-bottom: 30px;
-    font-size: 2.5em;
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: 1.5em;
 }
 
 /* Offerings Grid */
 .offerings-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 30px;
+    gap: 10px;
     margin-top: 30px;
 }
 
@@ -147,4 +146,5 @@ figcaptain {
     font-style: itlaic;
     color: #2B2B2B;
 }
+
 

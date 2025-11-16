@@ -48,7 +48,7 @@ body {
 /* Header Styles */
 header {
     text-align: center;
-    padding: 40px 0;
+    padding: 10px 0;
     background-color: #1F2A44;
 }
 
@@ -177,6 +177,7 @@ overlay-div-two {
     height: 90px;
     z-index: 3; /* On top of base-div and overlay-div-one */
 }
+
 
 
 
